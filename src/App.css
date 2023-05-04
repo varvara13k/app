@@ -1,5 +1,99 @@
+.profile__content {
+  padding: 50px 0;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #61dafb;
+}
+
+.profile__title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.profile__user {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile__image {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  background: darkgray;
+}
+
+.profile__btn {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.profile__gender:hover {
+  font-size: 25px;
+  color: #ff5a00;
+}
+
+.profile__remove_icon:hover {
+  font-size: 25px;
+  color: #ff5a00;
+}
+
+.profile__other:hover {
+  font-size: 25px;
+  color: #ff5a00;
+}
+
+.profile__other {
+  cursor: pointer;
+}
+
+.profile__info {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 20px;
+  border-bottom: 1px solid gray;
+  width: 600px;
+  padding-bottom: 40px;
+}
+
+.profile__input {
+  width: 600px;
+  height: 40px;
+  outline: none;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.profile__btn2 {
+  display: block;
+  padding: 15px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.profile__remove {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -32,6 +126,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
